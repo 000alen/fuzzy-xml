@@ -1,0 +1,26 @@
+{
+  "name": "@000alen/fuzzy-xml",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "repository": "https://github.com/000alen/fuzzy-xml.git",
+  "author": "Alen Rubilar <lclc.alen@gmail.com>",
+  "license": "MIT",
+  "packageManager": "yarn@4.5.1",
+  "scripts": {
+    "prepare": "ts-patch install -s",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "ts-patch": "^3.2.1",
+    "typescript": "5.5.4",
+    "typescript-transform-paths": "^3.5.1"
+  },
+  "workspaces": [
+    "examples/*"
+  ]
+}
